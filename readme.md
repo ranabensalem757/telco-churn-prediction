@@ -85,7 +85,7 @@ This project is currently under active development. The data pipeline (loading, 
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/telco-churn-prediction.git
+git clone https://github.com/ranabensalem757/telco-churn-prediction.git
 cd telco-churn-prediction
 ```
 
