@@ -1,0 +1,9 @@
+from sklearn.metrics import classification_report, confusion_matrix
+
+def evaluate_model(model, X_test, y_test):
+    """
+    evaluates an XGBoost model on test data 
+    """
+    preds = model.predict(X_test)
+    print("Classification report:\n", classification_report(y_test, preds))
+    print("Confusion matrix:\n", confusion_matrix(y_test, preds))
